@@ -14,17 +14,6 @@
 		<org.aspectj-version>1.8.1</org.aspectj-version>
 	</properties>
 
-  <distributionManagement>
-    <repository>
-      <id>packagecloud-mmorris-rsi</id>
-      <url>packagecloud+https://packagecloud.io/exampleCorp/core</url>
-    </repository>
-    <snapshotRepository>
-      <id>packagecloud-mmorris-rsi</id>
-      <url>packagecloud+https://packagecloud.io/exampleCorp/core</url>
-    </snapshotRepository>
-  </distributionManagement>
-
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
@@ -182,12 +171,12 @@
 	<build>
 		<finalName>${project.artifactId}</finalName>
 		<extensions>
-      <extension>
-        <groupId>io.packagecloud.maven.wagon</groupId>
-        <artifactId>maven-packagecloud-wagon</artifactId>
-        <version>0.0.4</version>
-      </extension>
-    </extensions>
+	      <extension>
+	        <groupId>io.packagecloud.maven.wagon</groupId>
+	        <artifactId>maven-packagecloud-wagon</artifactId>
+	        <version>0.0.4</version>
+	      </extension>
+	    </extensions>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
