@@ -185,11 +185,29 @@
 		</dependency>
 		<!-- Cucumber - Gherkin tests -->
 		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>2.3.1</version>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java8</artifactId>
+			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>1.2.5</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-server</artifactId>
+			<version>2.48.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+		<version>3.8.1</version>
+</dependency>
+		
 	</dependencies>
 
 	<build>
